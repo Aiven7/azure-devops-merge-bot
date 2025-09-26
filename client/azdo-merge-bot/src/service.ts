@@ -79,7 +79,7 @@ function getExtensionId(context: SDK.IExtensionContext) {
 }
 
 function clearCache(org: string, repoId: string): Promise<Response> {
-    return fetch(`https://merge-a-bot.azurewebsites.net/policies?organization=${encodeURIComponent(org)}&repositoryId=${encodeURIComponent(repoId)}`, {
+    return fetch(`https://mergebot-h4bcbxamava6h7hj.westeurope-01.azurewebsites.net/policies?organization=${encodeURIComponent(org)}&repositoryId=${encodeURIComponent(repoId)}`, {
         method: "DELETE"
     });
 }

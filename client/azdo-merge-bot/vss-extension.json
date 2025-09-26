@@ -2,10 +2,10 @@
     "manifestVersion": 1,
     "id": "merge-a-bot",
     "publisher": "alex-h",
-    "version": "1.1.1",
+    "version": "1.0.0",
     "name": "merge-a-bot",
     "description": "Handles merging branches automatically based on defined policies like source -> target branch or release branches -> master",
-    "public": true,
+    "public": false,
     "categories": ["Azure Repos"],
     "tags": ["code", "repo", "git", "branch", "merge"],
     "screenshots": [
